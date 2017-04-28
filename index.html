@@ -27,53 +27,60 @@
     <!--Your HTML Starts Here :: Hint, you must put your grid in a .container div. -->
     <nav>
     	<ul>
+    		<li></li>
     		<!-- <img class="glow" src="img/glow.gif"> -->
-			<li>Home</li>
-			<li>About</li>
-			<li>Achievements</li>
-			<img class="glow" src="img/glow.gif">
+			<li><a href="#Home">Home</a></li>
+			<li><a href="#About">About</a></li>
+			<li><a href="#Resume">Resume</a></li>
+			<li><img class="glow" src="img/glow.gif"></li>
 			<!-- <li><img class="dog" src="img/Pepsi.jpg"></li> -->
-			<li>Skills</li>
-			<li>Contact</li>
-			<li>Links</li>
+			<li><a href="#Links">Links</a></li>
+			<li><a href="#Others">Others</a></li>
+			<li><a href="#Battle">Battle</a></li>
 			<!-- <img class="glow" src="img/glow.gif"> -->
+			<li class="spacer"></li>
 		</ul>
     </nav>
+    <div id="Home">
     <header>
-    	<div class="Pepsi">
-    		<img class="me" src="img/Pepsi.jpg"></img>
-    	</div>
+    	 <div class="Pepsi">
+    		<div class="left"><img class="me" src="img/Pepsi.jpg"></img></div>
+    		<div class="right"><p class="des">Welcome</p></div>
+    		<div class="clear"></div>
+    	</div> 
     	<img class="background" src="img/connections.gif">
     </header>
-	<div class="container">
+    </div>
+	<div class="container" class="tab">
 		<div class="row">
-			<div class="line" class="col-md-12">
+			<div class="col-sm-12" class="col-xs-12" class="line">
 				<h1></h1>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm-12></div>
+			<div class="col-sm-12" class="col-xs-12"></div>
 		</div>
 		<div class="row">
-			
-			<div class="col-sm-1"></div>
-			<div class="col-sm-5">
-				<h1>About Me</h1>
+			<div class="col-sm-1" class="col-xs-12"></div>
+			<div class="col-sm-5" class="col-xs-12">
+				<h1 class="upped" id="About">About Me</h1>
 				<!-- <img src="img/blank.jpg"> -->
-				<p class="about">My name is Josh Sabio. I am a Philippine immigrant who came to the United States when I was 7 years old. I am currently 18 years old and will become 19 in October 7th. I have a two siblings: an older sister and a twin brother. My dog’s name is Pepsi and his breed is a bichon frise. Also, my family raises quail in our backyard.</p>
+				<p class="about">My name is Josh Sabio. I am a Philippine immigrant who came to the United States when I was 7 years old. I am currently 18 years old and will become 19 in October 7th. I have two siblings: an older sister and a twin brother. My dog’s name is Pepsi and his breed is a bichon frise. Also, my family raises quail in our backyard.</p>
 			</div>
 			<!-- <div class="space"></div> -->
-			<div class="col-sm-5">
-				<h1>What I Do</h1>
+			<div class="col-sm-5" class="col-xs-12">
+				<h1 class="upped">What I Do</h1>
 				<!-- <img src="img/blank.jpg"> -->
-				<p class="about">I go to school at Bartlett High School in Bartlett, Tennessee. As a senior, I take advanced classes such as AP Calculus and AP Spanish to hopefully gain college credit after I graduate high school. My hobbies are playing computer games such as StarCraft and Hearthstone and chilling with friends. I drive a 2013 Nissan Altima with hopes to find either a job or internship during the summer. If you want to learn more about me, visit https://josh-sabio.github.io/joshsabio.github.io/ to find other various interests.</p>
+				<p class="whatido">I go to school at Bartlett High School in Bartlett, Tennessee. As a senior, I take advanced classes such as AP Calculus and AP Spanish to hopefully gain college credit after I graduate high school. My hobbies are playing computer games such as StarCraft and Hearthstone and chilling with friends. I drive a 2013 Nissan Altima with hopes to find either a job or internship during the summer. If you want to learn more about me, visit https://josh-sabio.github.io/joshsabio.github.io/ to find other various interests.</p>
 			</div>
-			<div class="col-sm-1"></div>
+			<div class="col-sm-1" class="col-xs-12"></div>
 		</div>
 		<div class="row">
-			<div class="col-sm-12">
-				<h1>Resume</h1>
-				<div class="resume">
+			<div class="col-sm-12" class="col-xs-12">
+				
+				<h1 class="upped" id="Resume">Resume</h1>
+					<a href="resume.html"><img class="respic" src="img/resumepic2.png"></a>
+			<!--	<div class="resume">
 					<p>2/1/2017</p>
 					<br>
 					<h3>Josh Sabio</h3>
@@ -119,7 +126,35 @@
 						<li>Proficient in HTML and CSS code</li>
 						<li>Capable of interacting with other individuals</li>
 					</ul>
+					</div> -->
+				
+			</div>
+			<div class="col-sm-12" class="col-xs-12">
+				<h1 class="upped" id="Links">Links</h1>
+				<div class="pics">
+				 	<a href="https://josh-sabio.github.io/Mariscos-Frescos/index.html"><img class="newtab" src="img/MariscosFrescos.png"></a>
+				 	<a href="https://josh-sabio.github.io/project-woof/"><img class="newtab" src="img/Pugs.png"></a>
+				 	<a href="https://josh-sabio.github.io/extinction/"><img class="newtab" src="img/Smilodon.png"></a>
 				</div>
+			</div>
+			<div class="col-sm-12" class="col-xs-12">
+				<h1 class="upped" id="Others">Others</h1>
+				<ul class="nombres">
+					<li>
+						<button class="tab"><b>Michael Lopez</b></button>
+					</li>
+					<li>
+						<button class="tab"><b>Grettio Rivas</b></button>
+					</li>
+				</ul>
+			</div>
+			<div class="col-sm-12" class="col-xs-12">
+				<h1 class="upped" id="Battle">Battle</h1>
+				<a href="http://www.arcadespot.com/game/kof-wing-ex-2/">
+					<img class="kdash" src="img/kdash.gif">
+					<!-- <img class="greenglow" src="img/greenglow.gif"> -->
+				</a>
+				<!-- <div class="greenglow">hello</div> -->
 			</div>
 		<div>
 	</div>
@@ -127,15 +162,55 @@
 	</div>
 	</div>
 	<footer>
-			<p>© Josh Sabio 2017</p>
+		<hr>
+			<p class="Copyright"><strong>© Josh Sabio 2017</strong></p>
+		<hr>
 	</footer>
     
 
     <!-- DON'T DELETE THIS. DO NOT PUT ANY ADDITIONAL HTML BELOW THIS POINT. jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
-	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- Custom Helper Script -->
+    <!-- Tabs Java -->
+<!--    <script>
+    
+    	function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+    </script> -->
+    <!-- Slowroll Java -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+    	
+			$(function() {
+			  $('a[href*="#"]:not([href="#"])').click(function() {
+			    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			      var target = $(this.hash);
+			      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			      if (target.length) {
+			        $('html, body').animate({
+			          scrollTop: target.offset().top
+			        }, 1000);
+			        return false;
+			      }
+			    }
+			  });
+			});
+		
+    </script>
     <script src="js/helper.js"></script>
   </body>
 </html>
